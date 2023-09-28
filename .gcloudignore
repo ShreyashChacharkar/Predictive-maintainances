@@ -1,0 +1,21 @@
+# Exclude development and test files
+*.pyc
+*.pyo
+__pycache__
+venv/
+tests/
+
+# Exclude version control files and directories
+.git/
+.gitignore
+
+# Exclude other unnecessary files
+*.log
+*.md
+*.json
+*.xml
+*.yaml
+*.yml
+
+Dokcerfile
+.dockerignore
